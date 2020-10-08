@@ -1,5 +1,10 @@
 ﻿using System;
 
+/// <summary>
+/// Conform legii lui Moore (puterea de calcul se dublează la fiecare 18 luni iar prețul rămâne același), putem observa ca puterea de calcul creste exponential in baza 2 la fiecare 18 luni, astfel
+/// obtinem formula Log in baza 2 din n inmultit cu 18 pentru a obtine lunile necesare cresterii de n ori a puterii de calcul.
+/// </summary>
+
 namespace Moores_Law
 {
     class Program
